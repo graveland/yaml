@@ -27,7 +27,7 @@ import (
 	"os"
 
 	. "gopkg.in/check.v1"
-	"sigs.k8s.io/yaml/goyaml.v3"
+	"github.com/graveland/yaml/goyaml.v3"
 )
 
 var marshalIntTest = 123

@@ -20,7 +20,7 @@ import (
 	"bytes"
 
 	. "gopkg.in/check.v1"
-	yaml "sigs.k8s.io/yaml/goyaml.v3"
+	yaml "github.com/graveland/yaml/goyaml.v3"
 )
 
 func (s *S) TestCompactSeqIndentDefault(c *C) {

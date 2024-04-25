@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"sigs.k8s.io/yaml/goyaml.v3"
+	"github.com/graveland/yaml/goyaml.v3"
 )
 
 // An example showing how to unmarshal embedded
