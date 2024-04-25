@@ -9,7 +9,7 @@ jobs:
   build:
     strategy:
       matrix: 
-        go-versions: [1.16.x, 1.17.x, 1.18.x, 1.19.x]
+        go-versions: [1.16.x, 1.17.x, 1.18.x, 1.19.x, 1.20.x, 1.21.x, 1.22.x]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
